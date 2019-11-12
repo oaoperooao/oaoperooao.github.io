@@ -1,0 +1,12 @@
+.hp_p {
+    font-size: 18px;
+    margin: auto;
+}
+
+.p_text {
+    font-size: 20px;
+}
+
+.dev-icons .list-inline-item i:hover {
+    color: #333696;
+}
