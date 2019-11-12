@@ -1,9 +1,9 @@
-###採用模板：([Resume by Clarence Taylor, from StartBootstrap]https://startbootstrap.com/themes/resume/)
+# 採用模板：[Resume by Clarence Taylor, from StartBootstrap](https://startbootstrap.com/themes/resume/)
 
 ## Html 修改
 
 ## CSS 修正部分
-1.修正整體色調(棕紅色->藍紫色)
+ - 修正整體色調(棕紅色->藍紫色)
 
 ## Copyright and License
 
