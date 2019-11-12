@@ -1,4 +1,5 @@
-#採用模板：[Resume by Clarence Taylor, from StartBootstrap]https://startbootstrap.com/themes/resume/
+###採用模板：([Resume by Clarence Taylor, from StartBootstrap]https://startbootstrap.com/themes/resume/)
+
 ## Html 修改
 
 ## CSS 修正部分
