@@ -10,3 +10,7 @@
 .dev-icons .list-inline-item i:hover {
     color: #333696;
 }
+
+.hyper:hover {
+    opacity: 50%;
+}
