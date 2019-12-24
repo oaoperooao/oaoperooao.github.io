@@ -8,7 +8,7 @@ Copyright 2019 Pero. Code released under the [MIT](https://github.com/BlackrockD
 
 
 ## Html 
- - [index.html] (https://oaoperooao.github.io/final/index.html)
+ - [index.html](https://oaoperooao.github.io/final/index.html)
    - 自製封面圖
    - 遊戲介紹Pop-Up視窗
    - footer連結Github的Readme檔
