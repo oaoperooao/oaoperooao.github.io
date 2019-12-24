@@ -23,6 +23,10 @@ body {
     background-color: #b9bcc0;
 }
 
+.dice {
+    width: 50px;
+}
+
 .link {
     color: #45474a;
     text-decoration: none;
@@ -94,4 +98,8 @@ body {
     .popup {
         width: 70%;
     }
+}
+
+.choice {
+    width: 190px;
 }
