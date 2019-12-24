@@ -9,7 +9,7 @@ Copyright 2019 Pero. Code released under the [MIT](https://github.com/BlackrockD
 
 ## Html 
  
-## CSS 修正部分
+## CSS
 
 ## 程式碼參考
-- [遊戲介紹Pop-up視窗]https://codepen.io/imprakash/pen/GgNMXO
+- [遊戲介紹Pop-up視窗](https://codepen.io/imprakash/pen/GgNMXO)
