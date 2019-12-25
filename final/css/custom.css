@@ -103,3 +103,8 @@ body {
 .choice {
     width: 190px;
 }
+
+.enable {
+    visibility: visible;
+    opacity: 1;
+}
