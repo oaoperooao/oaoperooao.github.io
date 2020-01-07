@@ -4,7 +4,7 @@
 - 內容所用的圖皆為自製圖
 - 字體採用開源字體台北黑體
 ### Copyright and License
-Copyright 2019 Pero. Code released under the [MIT]() license.
+Copyright 2019 Pero. Code released under the MIT license.
 
 
 ## Html 
