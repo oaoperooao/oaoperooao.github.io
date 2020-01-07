@@ -68,10 +68,10 @@ var RollATK = (target, r) => {
         var a = rand(0, 1)
         sum = sum + a
         if (a == 1) {
-            var $ATK = $('<img>').attr('src', './img/diceATK.png').addClass('dice')
+            var $ATK = $('<img>').attr('src', './img/diceATK.png').addClass('dice').attr('style', 'transform:rotate(' + (rand(0, 999) / 1000) + 'turn)')
             $(target).append($ATK)
         } else {
-            var $dice = $('<img>').attr('src', './img/dice.png').addClass('dice')
+            var $dice = $('<img>').attr('src', './img/dice.png').addClass('dice').attr('style', 'transform:rotate(' + (rand(0, 999) / 1000) + 'turn)')
             $(target).append($dice)
         }
     }
@@ -84,10 +84,10 @@ var RollDEF = (target, r) => {
         var a = rand(0, 1)
         sum = sum + a
         if (a == 1) {
-            var $DEF = $('<img>').attr('src', './img/diceDEF.png').addClass('dice')
+            var $DEF = $('<img>').attr('src', './img/diceDEF.png').addClass('dice').attr('style', 'transform:rotate(' + (rand(0, 999) / 1000) + 'turn)')
             $(target).append($DEF)
         } else {
-            var $dice = $('<img>').attr('src', './img/dice.png').addClass('dice')
+            var $dice = $('<img>').attr('src', './img/dice.png').addClass('dice').attr('style', 'transform:rotate(' + (rand(0, 999) / 1000) + 'turn)')
             $(target).append($dice)
         }
     }
