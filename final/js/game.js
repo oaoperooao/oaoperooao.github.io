@@ -129,7 +129,7 @@ var load = (num) => {
 }
 
 var onstage = (me, foe) => {
-    $('#me').empty().append(me)
+    $('#me').empty().append(me).attr('style', "transform:scaleX(-1);")
     $('#myHP').empty().append(me.attr('HP'))
     $('#myATK').empty().append(me.attr('ATK'))
     $('#myDEF').empty().append(me.attr('DEF'))
