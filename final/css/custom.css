@@ -13,14 +13,25 @@ body {
     align-content: center;
 }
 
-.btn {
-    color: white;
-    background-color: #51585f;
+span {
+    font-size: x-large;
 }
 
-.btn:hover {
-    color: #36333c;
-    background-color: #b9bcc0;
+.btn-in {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn-in:hover {
+    box-shadow: 0px 3px 3px rgba(20%, 20%, 40%, 0.5);
+}
+
+.choice {
+    width: 190px;
+}
+
+.choice:hover {
+    border-style: solid;
 }
 
 .dice {
@@ -100,11 +111,35 @@ body {
     }
 }
 
-.choice {
-    width: 190px;
-}
-
 .enable {
     visibility: visible;
     opacity: 1;
+}
+
+.HP {
+    font-size: xx-large;
+}
+
+#me {
+    text-align: left;
+}
+
+#foe {
+    text-align: right;
+}
+
+#fight {
+    margin: 0px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    border-style: groove;
+    border-color: black;
+    box-shadow: 3px 3px;
+}
+
+#fight:hover {
+    border-color: #8b0b0b;
+    box-shadow: -3px -3px #885c5c;
+    background-color: #a10000;
+    color: #ffafaf;
 }

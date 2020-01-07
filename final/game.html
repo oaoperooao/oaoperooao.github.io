@@ -20,43 +20,40 @@
     <!-- Custom styles for this template -->
     <link href="css/custom.css" rel="stylesheet">
 </head>
+<!-- style="background-image:url(./img/bg.png);background-size:cover" -->
 
-<body style="background-image:url(./img/bg.png);background-size:cover">
+<body>
     <!-- 網頁內容 -->
-    <div style="height:150px;"></div>
-
-    <div class="container">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col" id="me"></th>
-                    <th scope="col"></th>
-                    <th scope="col" id="foe"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td id="mydice"></td>
-                    <td><button class="btn btn-secondary" id="fight">對決！</button></td>
-                    <td id="foedice"></td>
-                </tr>
-                <tr>
-                    <td id="myHP"></td>
-                    <td>HP</td>
-                    <td id="foeHP"></td>
-                </tr>
-                <tr>
-                    <td id="myATK"></td>
-                    <td>ATK</td>
-                    <td id="foeATK"></td>
-                </tr>
-                <tr>
-                    <td id="myDEF"></td>
-                    <td>DEF</td>
-                    <td id="foeDEF"></td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="container" style="height:100vh; background-color: bisque; padding-top: 30px;">
+        <div class="row">
+            <div class="col col-sm-1"></div>
+            <div class="col col-sm-4">
+                <div class="row" style="box-shadow: -3px 3px;padding-left: 10px;">
+                    <p>HP: <span id="foeHP" class="HP"></span> ATK: <span id="foeATK"></span> DEF: <span id="foeDEF"></span></p>
+                </div>
+                <div class="row" id="foedice" style="margin-top: 30px;"></div>
+            </div>
+            <div class="col sm-6">
+                <div id="foe"></div>
+            </div>
+            <div class="col col-sm-1"></div>
+        </div>
+        <div class="row">
+            <td><button class="btn" id="fight">對決！</button></td>
+        </div>
+        <div class="row">
+            <div class="col col-sm-1"></div>
+            <div class="col sm-6">
+                <div id="me"></div>
+            </div>
+            <div class="col col-sm-4">
+                <div class="row" style="box-shadow: -3px 3px;padding-left: 10px;">
+                    <p>HP: <span id="myHP" class="HP"></span> ATK: <span id="myATK"></span> DEF: <span id="myDEF"></span></p>
+                </div>
+                <div class="row" id="mydice" style="margin-top: 30px;"></div>
+            </div>
+            <div class="col col-sm-1"></div>
+        </div>
 
         <div id="popup1" class="overlay">
             <div class="popup">

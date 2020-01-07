@@ -4,6 +4,9 @@ $(() => {
         $('.choice').on('click', () => {
             $('#foe').empty();
             $('#me').empty();
+            //清空骰區
+            $('#foedice').empty();
+            $('#mydice').empty();
             var loadCount = 0
             let $input = $(event.target);
             var $character = load($input.attr('value'));
@@ -127,20 +130,23 @@ var load = (num) => {
 
 var onstage = (me, foe) => {
     $('#me').empty().append(me)
-    $('#myHP').empty().append("<p>" + me.attr('HP') + "</p>")
-    $('#myATK').empty().append("<p>" + me.attr('ATK') + "</p>")
-    $('#myDEF').empty().append("<p>" + me.attr('DEF') + "</p>")
+    $('#myHP').empty().append(me.attr('HP'))
+    $('#myATK').empty().append(me.attr('ATK'))
+    $('#myDEF').empty().append(me.attr('DEF'))
     $('#foe').empty().append(foe)
-    $('#foeHP').empty().append("<p>" + foe.attr('HP') + "</p>")
-    $('#foeATK').empty().append("<p>" + foe.attr('ATK') + "</p>")
-    $('#foeDEF').empty().append("<p>" + foe.attr('DEF') + "</p>")
+    $('#foeHP').empty().append(foe.attr('HP'))
+    $('#foeATK').empty().append(foe.attr('ATK'))
+    $('#foeDEF').empty().append(+foe.attr('DEF'))
 }
 
 var restage = (foe) => {
+    //清空骰區
+    $('#foedice').empty();
+    $('#mydice').empty();
     $('#foe').empty().append(foe)
-    $('#foeHP').empty().append("<p>" + foe.attr('HP') + "</p>")
-    $('#foeATK').empty().append("<p>" + foe.attr('ATK') + "</p>")
-    $('#foeDEF').empty().append("<p>" + foe.attr('DEF') + "</p>")
+    $('#foeHP').empty().append(foe.attr('HP'))
+    $('#foeATK').empty().append(foe.attr('ATK'))
+    $('#foeDEF').empty().append(foe.attr('DEF'))
 }
 
 
@@ -150,13 +156,13 @@ var determine = (me, foe, r1, r2, count) => {
         damage = Number(r1 - r2)
         if (damage > 0) {
             foe.attr('HP', Number(foe.attr('HP') - damage))
-            $('#foeHP').empty().append("<p>" + foe.attr('HP') + "</p>")
+            $('#foeHP').empty().append(foe.attr('HP'))
         }
     } else {
         damage = Number(r2 - r1)
         if (damage > 0) {
             me.attr('HP', Number(me.attr('HP') - damage))
-            $('#myHP').empty().append("<p>" + me.attr('HP') + "</p>")
+            $('#myHP').empty().append(me.attr('HP'))
         }
     }
     if (me.attr('HP') <= 0) {
