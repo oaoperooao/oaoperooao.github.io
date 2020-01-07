@@ -15,15 +15,15 @@ Copyright 2019 Pero. Code released under the MIT license.
    - footer連結Github的Readme檔
  
 ## CSS
- - index.html
    - 修改連結與按鈕圖案
    - 遊戲介紹Pop-Up視窗調整
+   - 自己的角色翻轉
+   
 ## JS
  - 角色選擇與三圍(HP.ATK.DEF)
  - 遊戲機制擲骰
  - 攻守交換
  - 骰子隨機旋轉
- - 
 
 ## 程式碼參考
 - [遊戲介紹Pop-up視窗](https://codepen.io/imprakash/pen/GgNMXO)
